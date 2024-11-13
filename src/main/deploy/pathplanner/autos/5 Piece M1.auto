@@ -1,0 +1,190 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Shooting Command"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Speaker"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Note Collect"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Sub - R2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Shooting Command"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Speaker"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Note Collect"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "R2 - R3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Shooting Command"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Speaker"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Note Collect"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "R3 - R1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Shooting Command"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Speaker"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Note Collect"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "R3 - M1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shoot M1"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "Shooting Command"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Speaker"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Old",
+  "choreoAuto": false
+}

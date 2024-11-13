@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.225400050800102,
+        "y": 2.8549205542855534
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.629723703891853,
+        "y": 2.625191205937968
+      },
+      "isLocked": false,
+      "linkedName": "ShootM4"
+    },
+    {
+      "anchor": {
+        "x": 1.4794570033584513,
+        "y": 1.7062738125476258
+      },
+      "prevControl": {
+        "x": 3.4091835294781703,
+        "y": 1.301950159455874
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "RetrieveNoteSource"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 8.283361227418602
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 146.70057946281582
+  },
+  "useDefaultConstraints": true
+}

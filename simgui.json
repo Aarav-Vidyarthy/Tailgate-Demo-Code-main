@@ -1,0 +1,52 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Pose": "Field2d",
+      "/SmartDashboard/Angle PID": "PIDController",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/Climber Homing": "Command",
+      "/SmartDashboard/ClimberJoint Override Command": "Command",
+      "/SmartDashboard/ClimberJoint State Chooser": "String Chooser",
+      "/SmartDashboard/Elevator Homing": "Command",
+      "/SmartDashboard/Elevator Score": "Command",
+      "/SmartDashboard/Elevator Stow": "Command",
+      "/SmartDashboard/Intake Deploy": "Command",
+      "/SmartDashboard/Intake Eject": "Command",
+      "/SmartDashboard/Intake Homing": "Command",
+      "/SmartDashboard/IntakeJoint Override Command": "Command",
+      "/SmartDashboard/IntakeJoint State Chooser": "String Chooser",
+      "/SmartDashboard/Module 0": "Mechanism2d",
+      "/SmartDashboard/Module 1": "Mechanism2d",
+      "/SmartDashboard/Module 2": "Mechanism2d",
+      "/SmartDashboard/Module 3": "Mechanism2d",
+      "/SmartDashboard/Reset Climber Index": "Command",
+      "/SmartDashboard/Robot Pose Field Map": "Field2d",
+      "/SmartDashboard/Shooter Climber Clearance": "Command",
+      "/SmartDashboard/Shooter Eject": "Command",
+      "/SmartDashboard/Shooter Roller Speaker": "Command",
+      "/SmartDashboard/Shooter Roller Speed TUNING": "Command",
+      "/SmartDashboard/Shooter Roller Sub": "Command",
+      "/SmartDashboard/Shooter Tuning Angle": "Command",
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": "Field2d",
+      "/SmartDashboard/YSplit Eject Amp": "Command",
+      "/SmartDashboard/YSplit Eject Shooter": "Command"
+    },
+    "windows": {
+      "/Pose": {
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "right": 2961,
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.6297237038918526,
+        "y": 6.043563909350041
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.6756695735613696,
+        "y": 4.508971862388169
+      },
+      "isLocked": false,
+      "linkedName": "ShootM2"
+    },
+    {
+      "anchor": {
+        "x": 8.10485140970282,
+        "y": 4.113837383230322
+      },
+      "prevControl": {
+        "x": 6.588637710608754,
+        "y": 3.8381621652132196
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "M3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "IntakeDeploy",
+      "waypointRelativePos": 0.6679166666666673,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -177.2475145997313
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -170.75388725443673
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.10485140970282,
+        "y": 4.113837383230322
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.908638839499901,
+        "y": 3.4154601642536626
+      },
+      "isLocked": false,
+      "linkedName": "M3"
+    },
+    {
+      "anchor": {
+        "x": 3.666480399627466,
+        "y": 6.218158214094205
+      },
+      "prevControl": {
+        "x": 3.2989134422713287,
+        "y": 5.262484124968251
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "ShootM3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -164.47588900324584
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": true
+}

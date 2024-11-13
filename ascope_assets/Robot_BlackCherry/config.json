@@ -1,0 +1,22 @@
+{
+	"name": "BlackCherry",
+	"sourceUrl": "https://cad.onshape.com/documents/3aa115625218b3a8c65086c7/w/7f845ef0ccb01ebeb263de3a/e/10372f318598c93e76dda0d5?fbclid=IwY2xjawGfO8VleHRuA2FlbQIxMAABHYauUs3_VWWDC9yt1DkmHyXG8E-DeGaAMCusiEEjtB1_QW8HSj1RZTwM9w_aem_ZX1fv1KHrXHHdeKWBd6_iw",
+	"disableSimplification": false,
+	"rotations": [
+	{
+		"axis": "x",
+		"degrees": 90
+	},
+	{
+		"axis": "z",
+		"degrees": -90
+	}
+	],
+	"position": [
+	0,
+	0,
+	0
+	],
+	"cameras": [],
+	"components": []
+}
