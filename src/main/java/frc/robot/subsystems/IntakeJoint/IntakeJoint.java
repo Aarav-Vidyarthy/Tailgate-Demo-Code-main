@@ -31,8 +31,7 @@ public class IntakeJoint extends SubsystemBase {
     @RequiredArgsConstructor
     @Getter
     public enum State {
-        STOW(-0.05),
-        HOMING(0.0),
+        STOW(0.0),
         INTAKE(-0.31);
 
         private final double output;
@@ -74,22 +73,10 @@ public class IntakeJoint extends SubsystemBase {
     public void periodic() {
         io.updateInputs(inputs);
         Logger.processInputs("IntakeJoint", inputs);
-/*         if (state == State.STOW && atGoal()) {
-            m_motor.setControl(m_neutral);
-        } else  */
-        if (state == State.HOMING) {
-            //m_motor.setControl(m_duty.withOutput(0.05));
-            io.runDutyCycle(0.05);
-
-            if (inputs.supplyCurrent > IntakeJointConstants.homingCurrent) {
-                //m_motor.setPosition(0.0);
-                io.setPosition(0);
-                System.out.println("HOMED Elevator");
-                this.hasHomed = true;
-                this.state = State.STOW;
-            }
-
-        } else {
+       if (state == State.STOW && atGoal()) {
+            io.runDutyCycle(0.0);;
+        }  
+       else {
             //m_motor.setControl(m_position.withPosition(state.getOutput()).withSlot(1));
             io.setControl(m_position.withPosition(state.getOutput()).withSlot(1));
         }
